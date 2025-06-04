@@ -1,0 +1,13 @@
+{
+  "homepage": "https://github.com/Simohjc/ecommerce-platform.git",
+
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "echo 'Add your deployment command here'"
+  }
+}

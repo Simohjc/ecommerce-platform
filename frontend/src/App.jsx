@@ -51,7 +51,7 @@ const ScrollLinked = () => {
 
 const App = () => {
   return (
-    <Provider store={store}>
+    <Provider store={store} basename="/ecommerce-platform/">
       <BrowserRouter
         future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
       >
